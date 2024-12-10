@@ -7,9 +7,9 @@ import { colors, globalStyles } from '../../styles/globalStyles';
 
 const TaskScreen = () => {
   const [tasks, setTasks] = useState([
-    { id: 1, title: 'Complete React Native Tutorial', category: 'work', completed: false },
-    { id: 2, title: 'Buy groceries', category: 'shopping', completed: false },
-    { id: 3, title: 'Go for a run', category: 'personal', completed: false },
+    { id: 1, title: 'jaga toko', category: 'kerja', completed: false },
+    { id: 2, title: 'push pubg', category: 'main', completed: false },
+    { id: 3, title: 'react native', category: 'bejalar', completed: false },
   ]);
   const [isAddModalVisible, setIsAddModalVisible] = useState(false);
 
